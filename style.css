@@ -1,0 +1,654 @@
+/** made universal settings for font */
+* {
+  font-family: SingleDay, sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+/** changed background colour */
+body {
+  background-color: #afdcd4;
+}
+
+/** custom embedded font */
+@font-face {
+  font-family: SingleDay; 
+  src: url(fonts/SingleDay-Regular.ttf);
+}
+
+/** start.html*/
+.startHead {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 50pt;
+  font-weight: 400;
+  color: #356633;
+  cursor: pointer;
+}
+
+.checkPointer {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  color: #356633;
+  cursor: pointer;
+}
+
+.appear-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+.startContainer{
+  text-align: center;
+}
+
+.startButton {
+  position: relative;
+  background-color: #91e0c8;
+  border: none;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 50px;
+  font-size: 26pt;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+  box-shadow: 0 9px #5c9c87;
+}
+
+.startButton:hover {
+  background-color: #74b8a1;
+}
+
+.startButton:active {
+  background-color: #74b8a1;
+  box-shadow: #666;
+  transform: translateY(4px);
+}
+
+.bkgAudio {
+  text-align: center;
+}
+
+.someMusic {
+  position: relative;
+  background-color: #4169E1;
+  border: none;
+  padding: 10px 20px;
+  width: auto;
+  border-radius: 50px;
+  font-size: 16pt;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+  box-shadow: 0 9px #000080;
+}
+
+.someMusic:hover {
+  background-color: #87CEEB;
+  box-shadow: 0 5px #1E90FF;
+}
+
+.someMusic:active {
+  background-color: #1E90FF;
+  box-shadow: 0 5px #1E90FF;
+  transform: translateY(4px);
+}
+
+/** welcome.html*/
+/** creating welcome messages */
+.welcome {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 32pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633; 
+}
+
+.welSubTxt {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+/** centering mochi-hiya */
+.hiya-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+/** subtext for saying hi */
+.say-hi{
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+
+/** waving to mochi button */
+.waveContainer {
+  text-align: center;
+}
+
+.wave {
+  position: relative;
+  background-color: #91e0c8;
+  border: none;
+  padding: 10px 20px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 30pt;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 9px #5c9c87;
+}
+
+.wave:hover {
+  background-color: #74b8a1;
+}
+
+.wave:active {
+  background-color: #74b8a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/** container for undo and next buttons to align on same line */
+.waveAndNextContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/** undo changes to mochi-hi */
+.waveUndo {
+  font-family: SingleDay, sans-serif;
+  font-size: 20pt;
+  color: black;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.waveUndo:hover {
+  background-color: #74b8a1;
+}
+
+.waveUndo:active {
+  background-color: #74b8a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+
+/** button configurations to navigate to next page */
+.next1 {
+  font-family: SingleDay, sans-serif;
+  font-size: 18pt;
+  color: black;
+  width: 110px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.next1:hover {
+  background-color: #74b8a1;
+}
+
+.next1:active {
+  background-color: #74b8a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/** encourage.html */
+/** titles and text */
+.encourage-title {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 32pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+  cursor: pointer;
+}
+
+/** mochi-depressed (change to mochi-hug) */
+.depressed-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+/** encourage text */
+.encourageContainer {
+  text-align: center;
+}
+
+.encourageMain {
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+/** button configurations for hug*/
+.hugButton {
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  color: black;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.hugButton:hover {
+  background-color: #FFEB3B;
+  box-shadow: 0 5px #FBC02D;
+}
+
+.hugButton:active {
+  background-color: #FBC02D;
+  box-shadow: 0 5px #FBC02D;
+  transform: translateY(4px);
+}
+
+/** support text */
+.supportContainer {
+  text-align: center;
+}
+
+.supportMsg {
+  font-family: SingleDay, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  color: #356633;
+}
+
+.surpriseVid {
+  background-color: #D3D3D3;
+  font-size: 14pt;
+  border-width: 1px;
+  width: 220px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.jiayouGift {
+  font-family: SingleDay, sans-serif;
+  font-size: 20pt;
+  color: black;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.jiayouGift:hover {
+  background-color: #FFEB3B;
+  box-shadow: 0 5px #FBC02D;
+}
+
+.jiayouGift:active {
+  background-color: #FBC02D;
+  box-shadow: 0 5px #FBC02D;
+  transform: translateY(4px);
+}
+
+/** container for reset encourage and next buttons to align on same line */
+.encourageRedoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/** reset changes to encourage.html */
+.encourageRedo {
+  font-family: SingleDay, sans-serif;
+  font-size: 20pt;
+  color: black;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.encourageRedo:hover {
+  background-color: #87CEEB;
+  box-shadow: 0 5px #1E90FF;
+}
+
+.encourageRedo:active {
+  background-color: #1E90FF;
+  box-shadow: 0 5px #1E90FF;
+  transform: translateY(4px);
+} 
+
+/** button configurations to navigate to next page */
+.next2 {
+  font-family: SingleDay, sans-serif;
+  font-size: 18pt;
+  color: black;
+  width: 110px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.next2:hover {
+  background-color: #FFC0CB;
+  box-shadow: 0 5px #FF69B4;
+}
+
+.next2:active {
+  background-color: #FF69B4;
+  box-shadow: 0 5px #FF69B4;
+  transform: translateY(4px);
+}
+
+
+/** question.html */
+/** question title*/
+.questionTitle {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 32pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.lonely-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+/** question subtitle and subtext*/
+.qSubtitleContainer {
+  text-align: center;
+}
+
+.qSubtitle {
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.qSubtextContainer {
+  text-align: center;
+}
+
+.qSubtext {
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+  cursor: pointer;
+}
+
+/** question buttons*/
+.yesNoContainer {
+  text-align: center;
+  position: relative;
+}
+
+.yesButton {
+  font-size: 40pt;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #D3D3D3;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px #b0b0b0;
+  border: none;
+  margin: 50px;
+  padding: 5px;
+}
+
+.yesButton:hover {
+  background-color: #00FF7F;
+  box-shadow: 0 5px #00CC66;
+}
+
+.yesButton:active {
+  background-color: #00CC66;
+  box-shadow: 0 5px #00CC66;
+  transform: translateY(4px);
+}
+
+.noButton {
+  font-size: 40pt;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #D3D3D3;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px #b0b0b0;
+  border: none;
+  margin: 50px;
+  padding: 5px;
+}
+
+.noButton:hover {
+  background-color: #D46A6A;
+  box-shadow: 0 5px #A54747;
+  cursor: pointer;
+}
+
+.noButton:active {
+  background-color: #A54747;
+  box-shadow: 0 5px #A54747;
+  transform: translateY(4px);
+}
+
+/** button configurations to navigate to next page */
+.next3Container {
+  text-align: right;
+}
+
+.next3 {
+  font-family: SingleDay, sans-serif;
+  font-size: 18pt;
+  color: black;
+  width: 110px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5c9c87;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px #666;
+  border: none;
+}
+
+.next3:hover {
+  background-color: #FFC0CB;
+  box-shadow: 0 5px #FF69B4;
+}
+
+.next3:active {
+  background-color: #FF69B4;
+  box-shadow: 0 5px #FF69B4;
+  transform: translateY(4px);
+}
+
+/** xmas */
+.xmasTitle {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 32pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.xmasSubtitle {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.xmasEarly {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 10pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.giftbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+.unwrapGift {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.xmasMsg {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 18pt;
+  font-weight: 400;
+  font-style: normal;
+  color: #356633;
+}
+
+.xmasSongContainer {
+  text-align: center;
+}
+
+.finishContainer{
+  text-align: center;
+}
+
+.finishButton {
+  position: relative;
+  background-color: #91e0c8;
+  border: none;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 50px;
+  font-size: 26pt;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+  box-shadow: 0 9px #5c9c87;
+}
+
+.finishButton:hover {
+  background-color: #74b8a1;
+}
+
+.finishButton:active {
+  background-color: #74b8a1;
+  box-shadow: #666;
+  transform: translateY(4px);
+}
+
+/** finish.html */
+.finishHead {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 50pt;
+  font-weight: 400;
+  color: #356633;
+}
+
+.finished {
+  text-align: center;
+  font-family: SingleDay, sans-serif;
+  font-size: 26pt;
+  font-weight: 400;
+  color: #356633;
+}
+
+.maracas-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+.restartContainer{
+  text-align: center;
+}
+
+.restartButton {
+  position: relative;
+  background-color: #91e0c8;
+  border: none;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 50px;
+  font-size: 26pt;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+  box-shadow: 0 9px #5c9c87;
+}
+
+.restartButton:hover {
+  background-color: #74b8a1;
+}
+
+.restartButton:active {
+  background-color: #74b8a1;
+  box-shadow: #666;
+  transform: translateY(4px);
+}
